@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int num;
     printf("Please Enter Your Faverite day number : ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
     switch (num)
     {
@@ -12,7 +13,7 @@ int main(){
         printf("Saturday");
         break;
     case 2:
-    printf("Sunday");
+        printf("Sunday");
         break;
     case 3:
         printf("Monday");
@@ -28,12 +29,10 @@ int main(){
         break;
     case 7:
         printf("friday");
-        break;    
+        break;
     default:
         printf("Sorry , Not Found!!");
     }
-
-
 
     return 0;
 }
